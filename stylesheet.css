@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+    -webkit-transition: all 0.2s ease;
+    -moz-transition:    all 0.2s ease;
+    -ms-transition:     all 0.2s ease;
+    -o-transition:      all 0.2s ease;
+    scroll-behavior: smooth;
+}
+
+.title {
+    color: pink;
+}
+
+.main {
+}
+
+body {
+    background-color:rgba(227, 210, 235, 0.76);
+    font-family: 'Franklin Goth Medium';
+    background-image: url(https://lh3.googleusercontent.com/wd1QBhTU_BrAKNDoPhhVaMUFckJCd-P5hU0OoOaqsi7nPzKSjc6ZoYfKrGloWSZi7cWNHjaGgAPaSIj3ouLS0phyAp2BOw-EDe3rEuNM_r3IRVj1bZvLkHtj9ni_qbCcZSXs40otvA=w2400);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.subheading {
+    color: rgba(0, 0, 0, 0.404);
+    text-align: center;
+}
+
+#navbar {
+    margin: 20px 5px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    overflow: hidden;
+    background-color:rgba(242, 240, 250, 0.7);
+    z-index: 9999;
+}
+
+.navi a {
+    float: left; 
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.heading {
+    border-radius: 40px;
+    border: 4px solid rgb(90, 7, 18);
+    padding: 20px;
+    min-width: 200px;
+    max-width: 800px;
+    max-height: 150px;
+    min-height: 50px;
+    text-align: center;
+    display: block;
+    margin: 60px auto;
+    position: relative;
+    z-index: 1;
+}
+
+
+body {
+    font-family: helvetica;
+}
+
+h2 {
+    font-family: monospace;
+}
+
+p {
+    padding: 20px 4px;
+}
+
+#about {
+    text-align: center;
+    background-color:rgba(249, 250, 243, 0.404);
+    border-radius: 15px;
+    padding: 3px 2px;
+}
+
+#work {
+    background-color:rgba(249, 250, 243, 0.404);
+    border-radius: 15px;
+    padding: 3px 2px;
+}
+
+#contact {
+    background-color:rgba(249, 250, 243, 0.404);
+    border-radius: 15px;
+    padding: 3px 2px;
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+h3, li, .recent, .collection{
+    list-style-type: none;
+}
+
+.collection {
+    text-align: right;
+    float: right;
+    width: 100%;
+}
+
+.recent {
+    text-align: left;
+    float: left;
+    width: 100%;
+}
+
+#rectangle {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    box-align: center;
+}
+
+#message {
+    text-align: center;
+}
+
+a {
+    color:seagreen
+}
+
+a:visited {
+    color: rgb(125, 90, 252);
+}
+
+a:hover {
+    color:salmon
+}
+
+footer {
+    min-height: 100px;
+}
